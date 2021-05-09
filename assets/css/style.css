@@ -800,6 +800,12 @@ p {
     margin-top: 30px; }
   .header-hero-content .main-btn {
     margin-top: 40px; }
+  .header-hero-content .main-btn.no-margin {
+      margin-top: 0px; }
+
+  /* .header-hero-content .subscribe-form {
+    width: 60%;
+  } */
 
 .header-hero-image {
   padding-top: 45px; }
@@ -1516,3 +1522,9 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #fff; }
+
+.logo-name {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 600;
+}
