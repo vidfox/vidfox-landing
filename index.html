@@ -396,7 +396,7 @@ function submitEmail(button, key = ''){
     var payload= {"text":`${key}[Invite Request] Email: ${emailValue}`}
     payload = JSON.stringify(payload);
     var xhttp = new XMLHttpRequest();
-    xhttp.open("POST", "https://hooks.slack.com/services/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", true);
+    xhttp.open("POST", "https://hooks.slack.com/services/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", true);
     xhttp.send(payload);
     email.classList.add("is-valid");
     email.classList.remove("is-invalid");
