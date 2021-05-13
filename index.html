@@ -396,6 +396,7 @@ function submitEmail(button, key = ''){
     var payload= {"text":`${key}[Invite Request] Email: ${emailValue}`}
     payload = JSON.stringify(payload);
     var xhttp = new XMLHttpRequest();
+    xhttp.setRequestHeader('Content-type', 'application/json');
     xhttp.open("POST", "https://autofoxio.herokuapp.com/slack-update/message", true);
     xhttp.send(payload);
     email.classList.add("is-valid");
