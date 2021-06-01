@@ -1556,3 +1556,9 @@ p {
 .heading {
   padding-top: 30px;
 }
+
+.subheading {
+  font-size: 14px;
+  color: #2E2E2E;
+  margin: 0px;
+}
