@@ -23,23 +23,23 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  title: 'We comes with everything you need to get started',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Pick your own schedule',
+      title: 'Pick your own schedule',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'You have total control over your availability. We check your calendar and only accept bookings when you are free.',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
+      altText: 'Set your rate',
+      title: 'Set your rate',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'We automatically collect payments for you via credit card or PayPal with automatic refunds and no-show protection.',
     },
   ],
 };

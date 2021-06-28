@@ -21,17 +21,17 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 005" />
+          <SEO title="KlubMeet Home" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
           <Feature />
-          <CoreFeature />
+          {/* <CoreFeature /> */}
           <WorkFlow />
           <Package />
-          <TeamSection />
-          <TestimonialCard />
-          <BlogSection />
+          {/* <TeamSection /> */}
+          {/* <TestimonialCard /> */}
+          {/* <BlogSection /> */}
           <Subscribe />
         </Layout>
       </StickyProvider>

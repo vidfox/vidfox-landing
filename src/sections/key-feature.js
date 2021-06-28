@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Unique Link',
+    title: 'Create Unique Link',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Create a unique link for your business and provide your services by sharing that link with your customers',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Audience Management',
+    title: 'Audience Management',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Manage your audience in your dashboard. Send them Personalized email/SMS/whatsapp messages about your services',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Create Courses',
+    title: 'Create Courses',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Upload your free/paid courses and update your regular customers about the it with our email/sms automation tool',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Take 1:1 Video Calls',
+    title: 'Take 1:1 Video Calls',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Update your availability and sync your google calendar to book 1:1 direct calls with your audience',
   },
 ];
 

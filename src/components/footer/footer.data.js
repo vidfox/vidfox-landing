@@ -8,25 +8,25 @@ export default {
       id: 1,
       iconSrc: Chat,
       altText: 'Community',
-      title: 'Join the Community',
+      title: 'Grow your Community',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        '',
     },
     {
       id: 2,
       iconSrc: Community,
       altText: 'Chat',
-      title: 'Chat Communication',
+      title: 'Connect Genuinely',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        '',
     },
     {
       id: 3,
       iconSrc: Github,
       altText: 'Github',
-      title: 'Github Access',
+      title: 'Keep your data safe',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor.',
+        '',
     },
   ],
   menuItem: [
@@ -35,16 +35,16 @@ export default {
       label: 'Home',
     },
     {
-      path: '/',
-      label: 'Adversite',
+      path: '/privacy',
+      label: 'Privacy',
+    },
+    {
+      path: '/terms',
+      label: 'Terms and Conditions',
     },
     {
       path: '/',
-      label: 'Supports',
-    },
-    {
-      path: '/',
-      label: 'Marketing',
+      label: 'Release Notes',
     },
     {
       path: '/',

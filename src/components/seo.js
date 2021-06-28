@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup product landing page',
-  author = 'RedQ, Inc',
+  description = 'Klubmeet helps you host your business online, by creating demos/courses and scheduling 1:1 meetings and much more',
+  author = 'KlubMeet Pvt Ltd',
   meta,
-  title = 'startup landing title',
+  title = 'KlubMeet Home',
 }) {
   const metaData = [
     {

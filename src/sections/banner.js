@@ -11,14 +11,13 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Quality Digital Products To Explore
+            Make the bond with your genuine audience stronger
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            Host webinars, create courses and schedule 1:1 video calls with your audience with 
+            KlubMeet and bring your business online today.
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary" onClick={() => window.open('https://www.klubmeet.com/auth')}>Get Started</Button>
         </Box>
 
         <Box sx={styles.banner.imageBox}>

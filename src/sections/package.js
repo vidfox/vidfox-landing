@@ -13,60 +13,61 @@ const packages = {
     {
       id: 1,
       name: 'Free Plan',
-      description: 'For Small teams or office',
-      buttonText: 'Start free trail',
+      description: 'For Small teams or Individuals',
+      buttonText: 'Start Now',
       priceWithUnit: '$0',
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Drag & Drop Builder',
+          text: 'Create your unique link',
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Choose Landing page from template",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Blog Support Tools',
+          text: 'Sync your Calendar to avoid conflicts',
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCloseCircle />,
-          text: 'eCommerce Store ',
+          text: 'White Label your landing page',
           isAvailable: true,
         },
       ],
     },
     {
       id: 2,
+      header: 'Suggested',
       name: 'Business king',
-      description: 'For Enterprise business',
-      priceWithUnit: '$15',
+      description: 'For Instructors and Consultants',
+      priceWithUnit: '$5',
       buttonText: 'Create account',
-      anotherOption: 'Or Start 14 Days trail',
+      anotherOption: 'Request feature for your use-case',
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Drag & Drop Builder',
+          text: 'Everything from Free Plan',
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Host Webinars",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Blog Support Tools',
+          text: 'Earn by uploading your Courses',
           isAvailable: true,
         },
         {
@@ -79,13 +80,12 @@ const packages = {
     },
     {
       id: 3,
-      header: 'Suggested',
       headerIcon: <IoIosCheckmarkCircle />,
       name: 'Pro Master',
       description: 'For pro level developers',
-      priceWithUnit: '$24',
-      buttonText: 'Create account',
-      anotherOption: 'Or Start 14 Days trail',
+      priceWithUnit: '-',
+      buttonText: 'Coming Soon',
+      anotherOption: '',
       points: [
         {
           id: 1,
@@ -302,14 +302,14 @@ export default function Package() {
             >
               Monthly Plan
             </button>
-            <button
+            {/* <button
               className={state.active === 'annual' ? 'active' : ''}
               type="button"
               aria-label="Annual"
               onClick={() => handlePricingPlan('annual')}
             >
               Annual Plan
-            </button>
+            </button> */}
           </Box>
         </Flex>
         <Box sx={styles.pricingWrapper} className="pricing__wrapper">
