@@ -13,6 +13,7 @@ class CustomDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script src="//code.tidio.co/8gq9wzgvu8ubuqghlquvuxefhuozzjmu.js" async></script>
         </body>
       </Html>
     );
