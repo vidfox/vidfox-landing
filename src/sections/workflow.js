@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Create your unique link',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Signup and your unique link will be created. Ready to share with your audience',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Set your availability',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Set availability to take 1:1 calls and link your google calendar to avoid conflicts',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Create your services',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'You can create call services, webinars and host your series on KlubMeet.',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Receive Earnings in bank',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'No worries about getting your earning, we provide safe payment with Stripe and RazorPay.',
   },
 ];
 
