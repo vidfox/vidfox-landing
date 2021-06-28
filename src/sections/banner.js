@@ -14,8 +14,8 @@ export default function Banner() {
             Make the bond with your genuine audience stronger
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Host webinars, create courses and schedule 1:1 video calls with your audience with 
-            KlubMeet and bring your business online today.
+            Host webinars, create courses and schedule 1:1 video calls with your audience on 
+            KlubMeet. Bring your business online today.
           </Text>
           <Button variant="primary" onClick={() => window.open('https://www.klubmeet.com/auth')}>Get Started</Button>
         </Box>
