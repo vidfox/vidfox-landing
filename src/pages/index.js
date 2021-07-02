@@ -23,11 +23,11 @@ export default function IndexPage() {
         <Layout>
           <SEO title="KlubMeet Home" />
           <Banner />
+          <WorkFlow />
           <KeyFeature />
           <ServiceSection />
           <Feature />
           {/* <CoreFeature /> */}
-          <WorkFlow />
           <Package />
           {/* <TeamSection /> */}
           {/* <TestimonialCard /> */}

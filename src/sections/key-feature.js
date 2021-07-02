@@ -31,7 +31,7 @@ const data = [
     altText: 'Create Courses',
     title: 'Create Courses',
     text:
-      'Upload your free/paid courses and update your regular customers about the it with our email/sms automation tool',
+      'Upload your free or paid courses, and get your regular customers notified automatically',
   },
   {
     id: 4,

@@ -40,7 +40,7 @@ export default function WorkFlow() {
       <Container>
         <SectionHeader
           slogan="Whats the function"
-          title="Let’s see how it works"
+          title="How it works"
           isWhite={true}
         />
 

@@ -23,7 +23,7 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'We comes with everything you need to get started',
+  title: 'We come with everything you need to get started',
   features: [
     {
       id: 1,
