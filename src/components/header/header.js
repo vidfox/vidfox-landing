@@ -38,7 +38,7 @@ export default function Header({ className }) {
             aria-label="Get Started"
             onClick={() =>  window.open('https://www.klubmeet.com/auth')}
           >
-            Get Started
+            Start My Page
           </Button>
 
           <MobileDrawer />
