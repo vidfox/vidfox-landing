@@ -53,7 +53,7 @@ export default function Subscribe() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
 
     // 3. Send a request to our API with the user's email address.
-    const res = await fetch('https://autofoxio.herokuapp.com/slack-update/messagee', {
+    const res = await fetch('https://autofoxio.herokuapp.com/slack-update/message', {
       body: JSON.stringify({"text":`[NewsLetter] Email: ${inputEl.current.value}`}),
       headers: {
         'Content-Type': 'application/json',
