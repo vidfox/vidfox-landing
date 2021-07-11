@@ -59,10 +59,11 @@ const MobileDrawer = () => {
       <Scrollbars autoHide>
         <Box sx={styles.content}>
           <Box sx={styles.menu}>
-            {menuItems.map(({ path, label }, i) => (
+            {menuItems.map(({ path, label, onClick = () => {} }, i) => (
               <Link
                 activeClass="active"
                 to={path}
+                onClick={onClick}
                 spy={true}
                 smooth={true}
                 offset={-70}

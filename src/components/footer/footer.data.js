@@ -43,12 +43,18 @@ export default {
       label: 'Terms and Conditions',
     },
     {
-      path: '/',
+      path: '',
       label: 'Release Notes',
+      onClick: () => {
+        window.open("https://www.notion.so/Release-Notes-fa9a5589597c4adfbbc469ae3c6fbe8a");
+      },
     },
-    {
-      path: '/',
-      label: 'Contact',
-    },
+    // {
+    //   path: '',
+    //   label: 'Contact',
+    //   onClick: () => {
+    //     window.open("https://www.notion.so/Release-Notes-fa9a5589597c4adfbbc469ae3c6fbe8a");
+    //   },
+    // },
   ],
 };

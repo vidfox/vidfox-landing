@@ -12,6 +12,8 @@ export default function Privacy() {
                             <li><a href="#service">How you can use the Service</a></li>
                             <li><a href="#restriction">Restrictions on Content and Use of the Service</a></li>
                             <li><a href="#fees">Service Fees</a></li>
+                            <li><a href="#refund">Refund Policy</a></li>
+                            <li><a href="#cancellation">Cancellation Policy</a></li>
                             <li><a href="#privacy">Privacy and Personal Data</a></li>
                             <li><a href="#communication">Communication</a></li>
                             <li><a href="#integrations">Integrations</a></li>
@@ -131,9 +133,16 @@ export default function Privacy() {
                       Payment processing services for Klubmeet, including the processing and storing of credit card data, are provided by Stripe Inc. (“Stripe”) and are subject to the Stripe Services Agreement — United States (“Stripe Services Agreement”). By agreeing to these terms and continuing to use  Klubmeet, you agree to be bound by the Stripe Services Agreement, as the same may be modified by Stripe from time to time. As a condition of Klubmeet enabling payment processing services through Stripe, you agree to provide Klubmeet accurate and complete information about you and your business, and you authorize Klubmeet to share with Stripe Inc. this information and transaction information related to your use of the payment processing services provided by Stripe.
                     </p> 
                     <p>  
+
+                    <h4 id="refund" class="heading">Refund Policy</h4>
+                    <p>If audience don't get to their call received in the provided slot by the experts, the amount gets automatically refunded to the bank account of the customer. Please write to <a href="mailto:admin@klubmeet.com">admin@klubmeet.com</a> if you need support regarding this.</p>
                       
-                        <h4 id="privacy" class="heading">Privacy and Personal Data</h4>
                     <br />
+                    <h4 id="cancellation" class="heading">cancellation Policy</h4>
+                    <p>If users/audience wants to cancel their booking they and easily do so in by signing in the platform and select the call to cancel. Audience needs to pay 5% charge of the overall cost excluding Taxes for cancellation. Please write to <a href="mailto:admin@klubmeet.com">admin@klubmeet.com</a> if you need support regarding this.</p>
+                      
+                    <br />
+                    <h4 id="privacy" class="heading">Privacy and Personal Data</h4>
 
                       When delivering the Service, Klubmeet will collect and process personal data about you and your use of the Service. By using the Service, you agree that Klubmeet can use your personal data in accordance with our Privacy Policy and in accordance with the consents you have given us. The Privacy Policy is available on this page.
                     </p> 

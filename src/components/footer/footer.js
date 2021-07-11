@@ -28,16 +28,25 @@ export default function Footer() {
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
-              {data.menuItem.map(({ path, label }, i) => (
+              {data.menuItem.map(({ path, label, onClick = () => {}}, i) => (
                 <Link
                   path={path}
                   key={i}
+                  onClick={onClick}
                   label={label}
                   sx={styles.footer.link}
                 />
               ))}
             </nav>
           </Box>
+          <Text sx={styles.footer.copyright}>
+            <b>Contact Us: Klubmeet Pvt Ltd, 8/2, Tower-C, Himalaya, Greater Noida, UP 201010</b>
+            <br />
+            <b>Phone: +91-8076745462</b>
+            <br />
+            <b>Mail: <a href="mailto:admin@Klubmeet.com">admin@Klubmeet.com</a></b>
+          </Text>
+          <br />
           <Text sx={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} KlubMeet, Pvt Ltd
           </Text>

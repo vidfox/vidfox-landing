@@ -145,10 +145,10 @@ As an individual you are granted rights according to the applicable data protect
 </p>
 <br />
 <ul>
-    <li>• The right to access to your personal data</li>
-    <li>• The right to rectification of your personal data</li>
-    <li>• The right to object to and restriction of our processing of your personal data</li>
-    <li>• The right to data portability.</li>
+    <li> The right to access to your personal data</li>
+    <li> The right to rectification of your personal data</li>
+    <li> The right to object to and restriction of our processing of your personal data</li>
+    <li> The right to data portability.</li>
 </ul>
 
 <br /><br />
