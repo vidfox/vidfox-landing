@@ -14,8 +14,8 @@ const packages = {
       id: 1,
       name: 'Free Plan',
       description: 'For Small teams or Individuals',
-      buttonText: 'Start Now',
-      priceWithUnit: '$0',
+      buttonText: 'Start My Page',
+      priceWithUnit: '₹0',
       points: [
         {
           id: 1,
@@ -48,7 +48,7 @@ const packages = {
       header: 'Suggested',
       name: 'Business king',
       description: 'For Instructors and Consultants',
-      priceWithUnit: '$5',
+      priceWithUnit: '₹399',
       buttonText: 'Create account',
       anotherOption: 'Request feature for your use-case',
       points: [
@@ -82,8 +82,8 @@ const packages = {
       id: 3,
       headerIcon: <IoIosCheckmarkCircle />,
       name: 'Pro Master',
-      description: 'For pro level developers',
-      priceWithUnit: '-',
+      description: 'For pro content creators',
+      priceWithUnit: '₹500',
       buttonText: 'Coming Soon',
       anotherOption: '',
       points: [
@@ -119,101 +119,101 @@ const packages = {
       id: 1,
       name: 'Free Plan',
       description: 'For Small teams or office',
-      buttonText: 'Start free trail',
-      priceWithUnit: '$0',
+      buttonText: 'Start My Page',
+      priceWithUnit: '₹0',
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: 'Create your unique link',
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Drag & Drop Builder',
+          text: "Choose Landing page from template",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Blog Support Tools',
+          text: 'Sync your Calendar to avoid conflicts',
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCloseCircle />,
-          text: 'eCommerce Store ',
+          text: 'White Label your landing page',
           isAvailable: true,
         },
       ],
     },
     {
       id: 2,
+      header: 'Suggested',
       name: 'Business king',
       description: 'For Enterprise business',
-      priceWithUnit: '$25',
+      priceWithUnit: '₹300',
       buttonText: 'Create account',
-      anotherOption: 'Or Start 10 Days trail',
+      anotherOption: 'Request feature for your use-case',
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: 'eCommerce Store',
+          text: 'Everything from Free Plan',
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Blog Support Tools',
+          text: "Host Webinars",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: 'Earn by uploading your Courses',
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Drag & Drop Builder ',
+          text: 'eCommerce Store ',
           isAvailable: true,
         },
       ],
     },
     {
       id: 3,
-      header: 'Suggested',
       headerIcon: <IoIosCheckmarkCircle />,
       name: 'Pro Master',
-      description: 'For pro level developers',
-      priceWithUnit: '$39',
-      buttonText: 'Create account',
-      anotherOption: 'Or Start 10 Days trail',
+      description: 'For pro content creators',
+      priceWithUnit: '₹400',
+      buttonText: 'Coming Soon',
+      anotherOption: '',
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: 'eCommerce Store',
+          text: 'Drag & Drop Builder',
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Blog Support Tools',
+          text: "1,000's of Templates",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: 'Blog Support Tools',
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: 'Drag & Drop Builder ',
+          text: 'eCommerce Store ',
           isAvailable: true,
         },
       ],
@@ -302,14 +302,14 @@ export default function Package() {
             >
               Monthly Plan
             </button>
-            {/* <button
+            <button
               className={state.active === 'annual' ? 'active' : ''}
               type="button"
               aria-label="Annual"
               onClick={() => handlePricingPlan('annual')}
             >
               Annual Plan
-            </button> */}
+            </button>
           </Box>
         </Flex>
         <Box sx={styles.pricingWrapper} className="pricing__wrapper">
