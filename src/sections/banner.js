@@ -11,11 +11,11 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Make the bond with your audience genuinely strong
+            Easy appointment scheduling and video meetings with no login or downloads. 
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Host webinars, create courses and schedule 1:1 video calls with your audience at 
-            KlubMeet. High time to monetize your audience.
+            Host webinars and schedule 1:1 video calls with your audience at 
+            KlubMeet.
           </Text>
           <Button variant="primary" onClick={() => window.open('https://www.klubmeet.com/auth')}>Get Started</Button>
         </Box>
