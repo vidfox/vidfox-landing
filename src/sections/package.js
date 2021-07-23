@@ -153,7 +153,7 @@ const packages = {
       header: 'Suggested',
       name: 'Business king',
       description: 'For Enterprise business',
-      priceWithUnit: '₹300',
+      priceWithUnit: '₹599',
       buttonText: 'Create account',
       anotherOption: 'Request feature for your use-case',
       points: [
@@ -188,7 +188,7 @@ const packages = {
       headerIcon: <IoIosCheckmarkCircle />,
       name: 'Pro Master',
       description: 'For pro content creators',
-      priceWithUnit: '₹400',
+      priceWithUnit: '₹899',
       buttonText: 'Coming Soon',
       anotherOption: '',
       points: [
