@@ -32,7 +32,7 @@ export default function PriceCard({
           <span>/Monthly</span>
         </Text>
         <Box sx={styles.buttonGroup}>
-          <Button variant="primary" aria-label={buttonText} onClick={() =>  window.open('https://www.klubmeet.com/auth')}>
+          <Button variant="primary" aria-label={buttonText} onClick={() =>  window.open('https://app.klubmeet.com/auth')}>
             {buttonText}
           </Button>
           {anotherOption && (

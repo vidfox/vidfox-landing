@@ -16,7 +16,7 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
             Build, visualize, automate workflows, and design a path to guide clients through your processes, step-by-step.
           </Text>
-          <Button variant="primary" onClick={() => window.open('https://www.klubmeet.com/auth')}>Get Started</Button>
+          <Button variant="primary" onClick={() => window.open('https://app.klubmeet.com/auth')}>Get Started</Button>
         </Box>
 
         <Box sx={styles.banner.imageBox}>
