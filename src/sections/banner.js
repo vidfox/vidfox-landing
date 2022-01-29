@@ -11,11 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Easy appointment scheduling and video meetings with no downloads. 
+            Create client portal with No-Code
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Host webinars and schedule 1:1 video calls with your audience at 
-            KlubMeet.
+            Build, visualize, automate workflows, and design a path to guide clients through your processes, step-by-step.
           </Text>
           <Button variant="primary" onClick={() => window.open('https://www.klubmeet.com/auth')}>Get Started</Button>
         </Box>
