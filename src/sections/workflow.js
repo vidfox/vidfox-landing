@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Create your unique link',
+    title: 'Create your unique portal',
     text:
-      'Signup and your unique link will be created. Ready to share with your audience',
+      'Signup and create your customer portal. Ready to share with your customers',
   },
   {
     id: 2,
-    title: 'Set your availability',
+    title: 'Create your workflow',
     text:
-      'Set availability to take 1:1 calls and link your google calendar to avoid conflicts',
+      'Create multiple private and public workflows for your customers to automate daily task.',
   },
   {
     id: 3,
-    title: 'Create your services',
+    title: 'Link with other services',
     text:
-      'You can create call services, webinars and host your series on KlubMeet.',
+      'Collect the valuable information and integrate with your other Saas services with easy integration',
   },
   {
     id: 4,
-    title: 'Receive Earnings in bank',
+    title: 'No Coding experience required',
     text:
-      'No worries about getting your earning, we provide safe payment with Stripe and RazorPay.',
+      'No worries about getting started, we provide templates and support for you to setup your initial workflows.',
   },
 ];
 

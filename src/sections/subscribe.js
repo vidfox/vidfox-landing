@@ -53,7 +53,7 @@ export default function Subscribe() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
 
     // 3. Send a request to our API with the user's email address.
-    const res = await fetch('https://autofoxio.herokuapp.com/slack-update/message', {
+    const res = await fetch('https://api.klubmeet.com/v1/slack-update/message', {
       body: JSON.stringify({"text":`[NewsLetter] Email: ${inputEl.current.value}`}),
       headers: {
         'Content-Type': 'application/json',
@@ -76,10 +76,10 @@ export default function Subscribe() {
         <Box sx={styles.contentBox}>
           <Box sx={styles.contentBoxInner}>
             <Heading as="h2" sx={styles.title}>
-              Subscribe to our Newsletter
+              Join the waiting list
             </Heading>
             <Text as="p" sx={styles.description}>
-              Get regular updates about the products and services. Be in touch with founders.
+              Get regular updates, Be part of the beta product. Be in touch with founders.
             </Text>
             <form onSubmit={subscribe}>
               <Flex sx={styles.subscribeForm}>

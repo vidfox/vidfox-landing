@@ -24,9 +24,9 @@ export default function IndexPage() {
           <SEO title="KlubMeet Home" />
           <Banner />
           <WorkFlow />
-          <KeyFeature />
-          <ServiceSection />
-          <Feature />
+          {/* <KeyFeature /> */}
+          {/* <ServiceSection /> */}
+          {/* <Feature /> */}
           {/* <CoreFeature /> */}
           <Package />
           {/* <TeamSection /> */}

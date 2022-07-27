@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/banner.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -20,7 +19,7 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
+          <Image src="https://res.cloudinary.com/ditoriefv/image/upload/v1658907985/klubmeet/onboarding_kzpvie.gif" style={{ height: '450px' }} alt="banner" />
         </Box>
       </Container>
     </section>
@@ -78,7 +77,7 @@ const styles = {
       mb: [0, null, -6, null, null, '-40px', null, -3],
       img: {
         position: 'relative',
-        height: [245, 'auto'],
+        height: [745, 'auto'],
       },
     },
   },
