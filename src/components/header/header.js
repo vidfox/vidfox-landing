@@ -36,7 +36,7 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
-            onClick={() =>  window.open('https://app.klubmeet.com/auth')}
+            onClick={() =>  window.open('https://calendly.com/agarwalsourav005/intro-to-klubmeet')}
           >
             Start free trial
           </Button>
