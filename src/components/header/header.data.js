@@ -4,14 +4,6 @@ export default [
     label: 'Home',
   },
   {
-    path: 'feature',
-    label: 'Features',
-  },
-  {
-    path: 'pricing',
-    label: 'Pricing',
-  },
-  {
     path: '',
     label: 'Release Notes',
     onClick: () => {

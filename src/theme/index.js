@@ -1,16 +1,16 @@
 export default {
   // example colors with dark mode
   colors: {
-    text: '#343D48', // body color and primary color
-    text_secondary: '#02073E', // secondary body color
-    heading: '#0F2137', // primary heading color
-    heading_secondary: '#0F2137', // heading color
-    background: '#FFFFFF', // body background color
-    background_secondary: '#F9FBFD', // secondary background color
+    text: '#525252', // body color and primary color
+    text_secondary: '#333', // secondary body color
+    heading: '#ffffff', // primary heading color
+    heading_secondary: '#525252', // heading color
+    background: '#000000', // body background color
+    background_secondary: '#111', // secondary background color
     border_color: '#E5ECF4', // border color
     yellow: '#FFA740', // border color
-    primary: '#EA3A60', // primary button and link color
-    secondary: '#2563FF', // secondary color - can be used for hover states
+    primary: '#FFF', // primary button and link color
+    secondary: '#111', // secondary color - can be used for hover states
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
 
@@ -169,7 +169,7 @@ export default {
       lineHeight: [1.9, null, null, 2],
       fontWeight: 'body',
       mb: 5,
-      px: [0, null, 5, 6, null, 8, 9],
+      // px: [0, null, 5, 6, null, 8, 9],
       color: 'heading',
     },
     title: {
@@ -260,10 +260,11 @@ export default {
     },
     primary: {
       variant: 'buttons.defaultBtn',
-      color: 'white',
+      color: 'text_secondary',
       bg: 'primary',
       '&:hover': {
         boxShadow: 'rgba(233, 76, 84, 0.57) 0px 9px 20px -5px',
+        color: 'black',
       },
     },
     whiteButton: {

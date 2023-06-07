@@ -1,9 +1,9 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button } from 'theme-ui';
+import { jsx, Container, Flex, Button, Text } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo1.svg';
+import LogoDark from 'assets/gravity-icon.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -13,8 +13,8 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={LogoDark} width={80} />
-
+          <Logo src={LogoDark} style={{ width: "40px" }} />
+          <Text variant="heading" style={{ fontSize: "22px" }}>FrontBase</Text>
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label, onClick = () => {} }, i) => (
               <Link
@@ -36,9 +36,9 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
-            onClick={() =>  window.open('https://calendly.com/agarwalsourav005/intro-to-klubmeet')}
+            onClick={() =>  window.open('https://calendly.com/vineetsri/15min')}
           >
-            Start free trial
+            Book Demo
           </Button>
 
           <MobileDrawer />

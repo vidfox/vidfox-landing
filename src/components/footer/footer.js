@@ -2,7 +2,7 @@
 import { jsx, Box, Grid, Container, Image, Heading, Text } from 'theme-ui';
 import { Link } from 'components/link';
 import data from './footer.data';
-import FooterLogo from 'assets/logo.svg';
+import FooterLogo from 'assets/gravity-icon.png';
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
@@ -24,7 +24,7 @@ export default function Footer() {
         {/* End of footer widgets area */}
         <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
-            <Image src={FooterLogo} alt="Logo" />
+            <Image src={FooterLogo} alt="Logo" style={{ height: "80px" }} />
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -44,11 +44,11 @@ export default function Footer() {
             <br />
             {/* <b>Phone: +91-8076745462</b> */}
             <br />
-            <b>Mail: <a href="mailto:admin@Klubmeet.com">admin@Klubmeet.com</a></b>
+            <b>Mail: <a href="mailto:vineetvk01@gmail.com">admin@myfrontbase.com</a></b>
           </Text>
           <br />
           <Text sx={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} KlubMeet, Pvt Ltd
+            Copyright by {new Date().getFullYear()} FrontBase Automations
           </Text>
         </Box>
       </Container>

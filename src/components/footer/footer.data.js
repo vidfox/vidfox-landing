@@ -15,8 +15,8 @@ export default {
     {
       id: 2,
       iconSrc: Community,
-      altText: 'Chat',
-      title: 'Connect Genuinely',
+      altText: 'Growth',
+      title: 'Grow Genuine Users',
       description:
         '',
     },

@@ -1,8 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import ShapeLeft from 'assets/shape-left.png';
-import ShapeRight from 'assets/shape-right.png';
+import { Container, Box, Heading, Text, Button } from 'theme-ui';
 
 export default function Banner() {
   return (
@@ -15,11 +13,15 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
             Build, visualize, automate workflows, and design a path to guide clients through your processes, step-by-step.
           </Text>
-          <Button variant="primary" onClick={() => window.open('https://calendly.com/agarwalsourav005/intro-to-klubmeet')}>Get Started</Button>
+          <Button variant="primary" style={{marginTop: "40px"}} onClick={() => window.open('https://calendly.com/vineetsri/15min')}>Request Access</Button>
+          <div style={{marginTop: "10px", color: "#999"}} >
+            <Text as="p">FrontBase is currently invite-only.</Text>
+          </div>
         </Box>
-
-        <Box sx={styles.banner.imageBox}>
-          <Image src="https://res.cloudinary.com/ditoriefv/image/upload/v1658907985/klubmeet/onboarding_kzpvie.gif" style={{ height: '450px' }} alt="banner" />
+        <Box sx={styles.banner.videoContainer}>
+          <video autoPlay muted loop id="design-video" style={{ width: "100%", display: "inline" }}>
+            <source src="https://res.cloudinary.com/ditoriefv/video/upload/v1686108273/klubmeet/swmqfy7dbfuajqgl0bvc.mp4" type="video/mp4" />
+          </video>
         </Box>
       </Container>
     </section>
@@ -32,53 +34,24 @@ const styles = {
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: 'relative',
     zIndex: 2,
-    '&::before': {
-      position: 'absolute',
-      content: '""',
-      bottom: 6,
-      left: 0,
-      height: '100%',
-      width: '100%',
-      zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: 'bottom left',
-      backgroundSize: '36%',
-    },
-    '&::after': {
-      position: 'absolute',
-      content: '""',
-      bottom: '40px',
-      right: 0,
-      height: '100%',
-      width: '100%',
-      zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: 'bottom right',
-      backgroundSize: '32%',
-    },
     container: {
-      minHeight: 'inherit',
+      minHeight: '70vh',
+      padding: '100px',
       display: 'flex',
-      flexDirection: 'column',
+      flexDirection: 'row',
       justifyContent: 'center',
+    },
+    videoContainer: {
+      width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
+      mx: 'right',
+      textAlign: 'right',
+      mb: ['40px', null, null, null, null, 7],
     },
     contentBox: {
       width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
-      mx: 'auto',
-      textAlign: 'center',
+      mx: 'left',
+      textAlign: 'left',
       mb: ['40px', null, null, null, null, 7],
-    },
-    imageBox: {
-      justifyContent: 'center',
-      textAlign: 'center',
-      display: 'inline-flex',
-      mb: [0, null, -6, null, null, '-40px', null, -3],
-      img: {
-        position: 'relative',
-        height: [745, 'auto'],
-      },
     },
   },
 };
