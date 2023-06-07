@@ -36,13 +36,13 @@ const styles = {
     zIndex: 2,
     container: {
       minHeight: '70vh',
-      padding: '100px',
+      padding: '100px 10px',
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'center',
     },
     videoContainer: {
-      width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
+      width: ['0%', '0%', '535px', null, '57%', '60%', '68%', '60%'],
       mx: 'right',
       textAlign: 'right',
       mb: ['40px', null, null, null, null, 7],
