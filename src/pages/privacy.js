@@ -11,7 +11,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="KlubMeet Home" />
+          <SEO title="FrontBase Home" />
           <Privacy />
         </Layout>
       </StickyProvider>

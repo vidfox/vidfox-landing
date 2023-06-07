@@ -9,14 +9,12 @@ class CustomDocument extends Document {
   render() {
     return (
       <Html lang="en-US">
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/favicon-1.ico" />
+        </Head>
         <body>
           <Main />
           <NextScript />
-          <script src="//code.tidio.co/8gq9wzgvu8ubuqghlquvuxefhuozzjmu.js" async></script>
-          {/* <a href="https://www.producthunt.com/posts/klubmeet?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-klubmeet" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=304860&theme=dark" alt="KlubMeet - Create a personalised video conferencing room for yourself | Product Hunt" 
-            style={{ width: '250px', height: '54px', position: 'fixed', bottom: '40px', left: '20px', zIndex: 100 }} 
-          /></a> */}
         </body>
       </Html>
     );
