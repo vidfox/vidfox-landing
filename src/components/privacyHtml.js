@@ -6,15 +6,15 @@ export default function Privacy() {
       <h3>Privacy Policy</h3>
       <p class="subheading">Effective date: June 1st, 2021</p>
       <p class="subheading">This Privacy Statement (the "Privacy Statement") is provided by:</p>
-      <p class="subheading">Klubmeet ("The Company")</p>
+      <p class="subheading">FrontBase ("The Company")</p>
 
 
       <h5 class="heading">Introduction</h5><br />
-      <p>This policy describes what information we collect when you use Klubmeet’s sites, services, mobile applications, products, and content (“Services”). It also provides information about how we store, transfer, use, and delete that information, and what choices you have with respect to the information.
+      <p>This policy describes what information we collect when you use FrontBase’s sites, services, mobile applications, products, and content (“Services”). It also provides information about how we store, transfer, use, and delete that information, and what choices you have with respect to the information.
       </p>
 
       <p>
-          This policy applies to Klubmeet’s online video meeting tool, including the website and mobile applications, and other Klubmeet websites (collectively “the Websites”).
+          This policy applies to FrontBase’s online video meeting tool, including the website and mobile applications, and other FrontBase websites (collectively “the Websites”).
       </p>
       <p>
       This policy applies where we are acting as a Data Controller with respect to the personal data of Hosts and Users of our Services; in other words, where we determine the purposes and means of the processing of that personal data. For content and data that you upload to or make available through the Service (“User Content”), you are responsible for ensuring this content is in accordance with our Terms of Service, and that the content is not violating other Hosts and Users’ privacy.
@@ -24,28 +24,28 @@ How we collect, process and store information
 </p>
 <p>
 
-We in Klubmeet are committed to safeguarding the privacy of our Hosts and Users. Our business model is to withhold a small fee from video calls and other services offered through the Klubmeet Platform, and does not rely on widespread collection of general user data. We will only collect and process information that we need to deliver the service to you, and to continue to maintain and develop the service.
+We in FrontBase are committed to safeguarding the privacy of our Hosts and Users. Our business model is to withhold a small fee from video calls and other services offered through the FrontBase Platform, and does not rely on widespread collection of general user data. We will only collect and process information that we need to deliver the service to you, and to continue to maintain and develop the service.
 </p>
 <p>
 
-Klubmeet may collect, store and process various kinds of data, with different legal grounds, as listed below. For the categories of data that require your consent, we will actively ask you for consent before collecting any data. You can give and revoke your consents at any time in your Settings page in https://Klubmeet.com.
+FrontBase may collect, store and process various kinds of data, with different legal grounds, as listed below. For the categories of data that require your consent, we will actively ask you for consent before collecting any data. You can give and revoke your consents at any time in your Settings page in https://FrontBase.com.
 </p>
 <p>
 
 The following is a list of data we collect, process or store:
 </p>
 <p>
-Host and User account information. To use Klubmeet Service, Hosts and Hosts and Users might have to provide a valid email address, date of birth, full name, and country of residence. The Host can also choose to enter a display name, add a profile picture and/or video, and short bio that will be used to represent them on their public profile page, and in conversations.
+Host and User account information. To use FrontBase Service, Hosts and Hosts and Users might have to provide a valid email address, date of birth, full name, and country of residence. The Host can also choose to enter a display name, add a profile picture and/or video, and short bio that will be used to represent them on their public profile page, and in conversations.
 </p>
 <p>
-Transaction information. Hosts that register on Klubmeet, as well as Hosts and Users of their Services might have to provide credit card information, billing email, banking information, location at the time of transaction and/or a billing address in order to complete a booking transaction.
+Transaction information. Hosts that register on FrontBase, as well as Hosts and Users of their Services might have to provide credit card information, billing email, banking information, location at the time of transaction and/or a billing address in order to complete a booking transaction.
 The transaction data may be processed for the purpose of supplying the purchased services and keeping proper records of those transactions. This data may be used for the purpose of delivering the Services to you. Processing this information is required for fulfilling the contract we entered into with you, at your request (our Terms of Service). Additionally, this information needs to be retained in order to comply with accounting and tax regulation.
 Service Information. When you interact with the Service, we automatically store a recording of a video call on our server with the purpose of using it exclusively for mitigating user disputes of the Service, as explained in our FAQs, and performing the contract we entered into with you, at your request (our Terms of Service). If dispute was not raised by the User within the time, defined in our FAQs, such recordings are automatically deleted.
 Usage information. When you interact with the Services, we collect and process metadata to provide additional context about the way the Service is being used. The usage data may include your IP address, geographical location, browser type and version, operating system, referral source, length of visit, page views and website navigation paths, as well as information about the timing, frequency and pattern of your service use. The source of the usage data is our server software and our analytics tracking system.
-Product Analytics data. Klubmeet logs activities by you and other Hosts and Users when the Hosts and Users interact with our websites or apps, when a page or a room is visited or where there is a conversation. We will never collect or record the content in conversations.
+Product Analytics data. FrontBase logs activities by you and other Hosts and Users when the Hosts and Users interact with our websites or apps, when a page or a room is visited or where there is a conversation. We will never collect or record the content in conversations.
 Technical log data. Like most digital services, our servers automatically collect information when Websites or Services are accessed or used and record it in log files. This log data may include the Internet Protocol (IP) address, the address of the web page visited within the Services, browser type and settings, the date and time the Services were used, information about browser configuration and plugins, language preferences and cookie data.
-Device information. Klubmeet may collect and process information about devices used to access the Services, including type of device, what operating system is used, device settings, application IDs, unique device identifiers and crash data. Whether we collect and process some or all of this information depends on the type of device used and its settings.
-Location information. We receive information from you and other third-parties that helps us approximate your location. We may, for example, use a business address submitted by your employer, or an IP address received from your browser or device to determine approximate location. Klubmeet may also collect location information from devices in accordance with the consent process provided by your device.
+Device information. FrontBase may collect and process information about devices used to access the Services, including type of device, what operating system is used, device settings, application IDs, unique device identifiers and crash data. Whether we collect and process some or all of this information depends on the type of device used and its settings.
+Location information. We receive information from you and other third-parties that helps us approximate your location. We may, for example, use a business address submitted by your employer, or an IP address received from your browser or device to determine approximate location. FrontBase may also collect location information from devices in accordance with the consent process provided by your device.
 The legal basis for this processing is our legitimate interests, namely using this data for the purpose of ensuring the proper administration of our website and business, analyzing the use of the website and services, monitoring and improving our website and services, improving the user experience, preventing abuse, and assisting Hosts and Users with support inquiries. For information about cookies and how to opt out of cookies, see our Cookie Policy.
 </p>
 <p>
@@ -55,7 +55,7 @@ Processing this information it is required for performing the contract we entere
 <p>
 Service and transactional notifications. Sometimes we’ll send you emails about your account, service changes or new policies. You can’t opt out of this type of “service or transactional” emails (unless you delete your account) as they are necessary information for the Services.
 The legal grounds for processing this information is that it is required for performing our commitment about communicating changes in plans and pricing to you in the contract we entered into with you, at your request (our Terms of Service).
-Correspondence information. We may process information that you choose to share with us if you participate in a focus group, contest, activity or event, apply for a job, interact with our social media accounts or otherwise communicate with Klubmeet
+Correspondence information. We may process information that you choose to share with us if you participate in a focus group, contest, activity or event, apply for a job, interact with our social media accounts or otherwise communicate with FrontBase
 The correspondence data may be processed for the purposes of communicating with you and record-keeping.
 </p>
 <p>
@@ -101,7 +101,7 @@ In some circumstances your personal data may be transferred to countries outside
 </p>
 <p>
 
-We and our other group companies have offices and facilities in Norway, Sweden, United States. The hosting facilities for Account information stored by Klubmeet are situated in Ireland. The hosting facilities for Usage information are situated in Ireland and the United States. Transfers to the United States will be protected by appropriate safeguards, namely the use of standard data protection clauses adopted or approved by the European Commission, a copy of which can be obtained from https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en.
+We and our other group companies have offices and facilities in Norway, Sweden, United States. The hosting facilities for Account information stored by FrontBase are situated in Ireland. The hosting facilities for Usage information are situated in Ireland and the United States. Transfers to the United States will be protected by appropriate safeguards, namely the use of standard data protection clauses adopted or approved by the European Commission, a copy of which can be obtained from https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en.
 </p>
 <p>
     <h5 class="heading">Retaining and deleting personal data</h5><br />
@@ -118,7 +118,7 @@ Transaction information will be retained for a minimum period of 5 years followi
 In some cases it is not possible for us to specify in advance the periods for which your personal data will be retained. In such cases, we will determine the period of retention based on the following criteria:
 </p>
 <p>
-Account information will be retained until you decide to delete your account on Klubmeet.
+Account information will be retained until you decide to delete your account on FrontBase.
 Information about you used for Product & Marketing communication will be retained as long as you have given us consent to use this information.
 The period of retention of usage information will be determined based on the need for historical data to determine statistical validity and relevance for product decisions and technical monitoring.
 Regardless of the provisions above, we may retain your personal data where such retention is necessary for compliance with a legal obligation to which we are subject, or in order to protect your vital interests or the vital interests of another natural person.
@@ -128,12 +128,12 @@ Regardless of the provisions above, we may retain your personal data where such 
     <h5 class="heading">Changes to this policy</h5><br />
 </p>
 <p>
-We can change these Terms at any time. If a change is material, we’ll let you know before it takes effect. By using Klubmeet on or after that effective date, you agree to the new Terms. If you don’t agree to them, you should contact Klubmeet at <a href="mailto:admin@Klubmeet.com" rel="">admin@Klubmeet.com</a> with the request to delete your account before they take effect, otherwise your use of the Service and Content will be subject to the new Terms.
+We can change these Terms at any time. If a change is material, we’ll let you know before it takes effect. By using FrontBase on or after that effective date, you agree to the new Terms. If you don’t agree to them, you should contact FrontBase at <a href="mailto:admin@FrontBase.com" rel="">admin@FrontBase.com</a> with the request to delete your account before they take effect, otherwise your use of the Service and Content will be subject to the new Terms.
 </p>
 <br />
 <p>
 Managing and deleting your personal information
-If you have a Klubmeet account, you can access, and modify your personal information, in Settings. To delete your account, you should contact Klubmeet at <a href="mailto:admin@Klubmeet.com" rel="">admin@Klubmeet.com</a>. If you request to delete your account, your information and content will be unrecoverable after that time.  We may withhold personal information that you request to the extent permitted by law.
+If you have a FrontBase account, you can access, and modify your personal information, in Settings. To delete your account, you should contact FrontBase at <a href="mailto:admin@FrontBase.com" rel="">admin@FrontBase.com</a>. If you request to delete your account, your information and content will be unrecoverable after that time.  We may withhold personal information that you request to the extent permitted by law.
 </p>
 
 <br />
@@ -157,7 +157,7 @@ As an individual you are granted rights according to the applicable data protect
 </p>
 <br />
 <p>
-For any questions about this privacy policy, please contact <a href="mailto:admin@Klubmeet.com" rel="">admin@Klubmeet.com</a>
+For any questions about this privacy policy, please contact <a href="mailto:admin@FrontBase.com" rel="">admin@FrontBase.com</a>
 </p> 
 </div>
   )

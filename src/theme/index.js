@@ -3,14 +3,14 @@ export default {
   colors: {
     text: '#525252', // body color and primary color
     text_secondary: '#333', // secondary body color
-    heading: '#ffffff', // primary heading color
+    heading: '#000', // primary heading color
     heading_secondary: '#525252', // heading color
-    background: '#000000', // body background color
+    background: '#fff', // body background color
     background_secondary: '#111', // secondary background color
     border_color: '#E5ECF4', // border color
     yellow: '#FFA740', // border color
-    primary: '#FFF', // primary button and link color
-    secondary: '#111', // secondary color - can be used for hover states
+    primary: '#ea3a60', // primary button and link color
+    secondary: '#fff', // secondary color - can be used for hover states
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
 

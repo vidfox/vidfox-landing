@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Button } from 'theme-ui';
+import { Container, Box, Heading, Text, Button, Link } from 'theme-ui';
+import Post from 'assets/post.svg';
 
 export default function Banner() {
   return (
@@ -13,15 +14,13 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
             Build, visualize, automate workflows, and design a path to guide clients through your processes, step-by-step.
           </Text>
-          <Button variant="primary" style={{marginTop: "40px"}} onClick={() => window.open('https://calendly.com/vineetsri/15min')}>Request Access</Button>
-          <div style={{marginTop: "10px", color: "#999"}} >
-            <Text as="p">FrontBase is currently invite-only.</Text>
+          <Button variant="primary" style={{marginTop: "40px"}} onClick={() => window.open('https://go.frontbaseapp.com')}>Start Trial</Button>
+          <div style={{marginTop: "10px", color: "#000"}} >
+            <Text as="p"><Link href='https://go.frontbaseapp.com/auth/signup' target='_blank'>Sign up using email.</Link> No credit card required</Text>
           </div>
         </Box>
         <Box sx={styles.banner.videoContainer}>
-          <video autoPlay muted loop id="design-video" style={{ width: "100%", display: "inline" }}>
-            <source src="https://res.cloudinary.com/ditoriefv/video/upload/v1686108273/klubmeet/swmqfy7dbfuajqgl0bvc.mp4" type="video/mp4" />
-          </video>
+          <img src={Post} alt='manage your customers' width={500} />
         </Box>
       </Container>
     </section>
@@ -42,7 +41,7 @@ const styles = {
       justifyContent: 'center',
     },
     videoContainer: {
-      width: ['0%', '0%', '535px', null, '57%', '60%', '68%', '60%'],
+      width: ['0%', '0%', '200px', null, '57%', '60%', '68%', '60%'],
       mx: 'right',
       textAlign: 'right',
       mb: ['40px', null, null, null, null, 7],

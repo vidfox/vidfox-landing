@@ -44,11 +44,11 @@ export default function Footer() {
             <br />
             {/* <b>Phone: +91-8076745462</b> */}
             <br />
-            <b>Mail: <a href="mailto:vineetvk01@gmail.com">admin@myfrontbase.com</a></b>
+            <b>Mail: <a href="mailto:vineetvk01@gmail.com">admin@frontbaseapp.com</a></b>
           </Text>
           <br />
           <Text sx={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} FrontBase Automations
+            Copyright by {new Date().getFullYear()} | FrontBase Automations Lab
           </Text>
         </Box>
       </Container>
@@ -123,7 +123,6 @@ const styles = {
         fontWeight: 700,
         mb: [2, null, null, null, '15px'],
       },
-
       p: {
         fontSize: [1, '15px'],
         fontWeight: 400,
