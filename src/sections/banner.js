@@ -20,7 +20,7 @@ export default function Banner() {
           </div>
         </Box>
         <Box sx={styles.banner.videoContainer}>
-          <img src={Post} alt='manage your customers' width={500} />
+          <img src={Post} alt='manage your customers' style={{ maxHeight: "100%", maxWidth: "100%" }}/>
         </Box>
       </Container>
     </section>
@@ -45,6 +45,7 @@ const styles = {
       mx: 'right',
       textAlign: 'right',
       mb: ['40px', null, null, null, null, 7],
+      overflow: 'hidden'
     },
     contentBox: {
       width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
