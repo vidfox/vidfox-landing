@@ -7,7 +7,7 @@ export default [
     path: '',
     label: 'Release Notes',
     onClick: () => {
-      window.open("https://www.notion.so/Release-Notes-fa9a5589597c4adfbbc469ae3c6fbe8a");
+      window.open("https://carnelian-narwhal-104.notion.site/Release-Notes-e736986505a444459e2dd6b5bce5cc8f?pvs=4");
     },
   },
 ];
