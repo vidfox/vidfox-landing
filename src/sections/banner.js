@@ -17,6 +17,7 @@ export default function Banner() {
           <Button variant="primary" style={{marginTop: "40px"}} onClick={() => window.open('https://go.frontbaseapp.com')}>Start Trial</Button>
           <div style={{marginTop: "10px", color: "#000"}} >
             <Text as="p"><Link href='https://go.frontbaseapp.com/auth/signup' target='_blank'>Sign up using email.</Link> No credit card required</Text>
+            <Text as="p"><Link href='https://calendly.com/vineetsri/15min' target='_blank'>Connect with team.</Link> Schedule a call with us for demo</Text>
           </div>
         </Box>
         <Box sx={styles.banner.videoContainer}>

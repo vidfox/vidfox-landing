@@ -36,9 +36,9 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
-            onClick={() =>  window.open('https://calendly.com/vineetsri/15min')}
+            onClick={() =>  window.open('https://go.frontbaseapp.com/auth/login')}
           >
-            Book Demo
+            Log in
           </Button>
 
           <MobileDrawer />
